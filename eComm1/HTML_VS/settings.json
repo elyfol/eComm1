@@ -1,0 +1,9 @@
+{
+"php.suggest.basic": false,
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+"source.fixAll": true,
+},
+"php.validate.executablePath": "path/to/your/php-executable",
+"php.validate.enable": true
+}
