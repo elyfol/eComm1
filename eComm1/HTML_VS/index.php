@@ -33,31 +33,36 @@
 <body>
 
     <!-- ***** Navigation Bar: Logo and Buttons ***** -->
-    <nav class="navbar">
+    <nav class="navbar sticky-top nav-tabs">
         <div class="container_fluid">
 
             <!-- ***** Logo ***** -->
-            <a class="nav_logo" href="#">
-            <img src="/assets/img/logo.png" alt="Logo" class="logo">  Phi</a>
-
+            <a class="navbar-brand" href="index.php">
+            <img src="assets/img/logo.png" alt="Logo" class="logo"></a>
+        
+        </div>
+        <div class="container_fluid">
+            
             <!-- ***** Nav Buttons ***** -->
             <ul class="nav justify-content-end">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Clothing</a>
+                    <a class="nav-link active" aria-current="page" href="index.php">Clothing</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Footwear</a>
+                    <a class="nav-link" href="footwear.php">Footwear</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Accessories</a>
+                    <a class="nav-link" href="accessories.php">Accessories</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="basket.php">
-                        <img src="/assests/img/basket.svg" alt="Basket" class="basket">
+                        <img src="assets/img/basket.svg" width="25em" height="25em" alt="Basket" class="basket">
                     </a>
                 </li>
             </ul>
+        
         </div>
+
     </nav>
 
     <!-- ***** Bootstrap JS bundle ***** -->
