@@ -44,7 +44,7 @@
         <div class="container_fluid">
             
             <!-- ***** Nav Buttons ***** -->
-            <ul class="navbar justify-content-end">
+            <ul class="nav justify-content-end">
                 <li class="nav-item">
                     <a class="nav-link" href="index.php">Clothing</a>
                 </li>
